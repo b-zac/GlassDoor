@@ -1,0 +1,35 @@
+﻿@model GlassDoor.Data.Entities.Models.PhotoEntryModel
+@{
+    ViewData["Title"] = "VisitorDetail";
+}
+
+<h1>Visitor's Detail</h1>
+
+@*<div class="card" style="width: 24rem;">
+    <img src="data:image/png;base64,@Model.Base64" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h3 class="card-title">@Model.UploadDate</h3>
+        <h5 class="card-text">@Model.VisitorName</h5>
+    </div>
+</div>*@
+<div class="card text-center" style="width:60%; margin:auto;margin-top:25px">
+    <div class="card-body">
+        <h3 class="card-title">@Model.VisitorName</h3>
+        <h5 class="card-text">@Model.UploadDate</h5>
+    </div>
+    <img src="data:image/png;base64,@Model.Base64" class="card-img-top" alt="..." >
+</div>
+
+@*<div>
+    <img src="data:image/png;base64,@Model.Base64"/>
+</div>*@
+@*<ul class="list-group">
+    <li class="list-group-item">@Model.VisitorName</li>
+    <li class="list-group-item">@Model.UploadDate</li>
+</ul>*@
+@*<div>
+    @Model.VisitorName
+</div>
+<div>
+    @Model.UploadDate
+</div>*@

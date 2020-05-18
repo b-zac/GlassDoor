@@ -1,0 +1,30 @@
+﻿@model IEnumerable<GlassDoor.Data.Entities.Models.FriendPhotoEntryModel>
+@{
+    ViewData["Title"] = "FriendsList";
+}
+
+<h1>FriendsList</h1>
+
+<ul class="list-group list-group-flush">
+    @foreach (var m in Model)
+    {
+
+        <li class="media" style="margin-top: 10px;margin-bottom:20px">
+            <img src="@m.ImageBase64" class="mr-3" alt="..." width="64" height="64">
+            <div class="media-body">
+                <h5 class="mt-0 mb-1">@m.FriendName</h5>
+            </div>
+        </li>
+
+        @*<div>
+                <span>
+                    <img src="@m.ImageBase64" height="128" width="128" />
+                </span>
+                <span>
+                    @m.FriendName
+                </span>
+            </div>*@
+    }
+</ul>
+
+    <a class="btn btn-primary" href="/Bell/AddFriend">Add Friend</a>

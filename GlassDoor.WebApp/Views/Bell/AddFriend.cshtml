@@ -1,0 +1,50 @@
+﻿@model GlassDoor.Data.Entities.Models.FriendPhotoEntryModel
+
+@{
+    ViewData["Title"] = "Friend List";
+}
+
+<h1>Your Friend List</h1>
+
+@using (Html.BeginForm(FormMethod.Post))
+{
+    @Html.HiddenFor(x => x.UserId)
+    @Html.HiddenFor(x => x.FriendId)
+    @Html.HiddenFor(x => x.ImageBase64)
+    @Html.HiddenFor(x => x.ImageExtension)
+
+    <div class="form-group">
+        @Html.ValidationSummary()
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(x => x.FriendName)
+        @Html.TextBoxFor(x => x.FriendName, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        <input type="file" id="myinput" onchange="encode();" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Add</button>
+}
+
+<script>
+    function encode() {
+        var selectedfile = document.getElementById("myinput").files;
+        if (selectedfile.length > 0) {
+          var imageFile = selectedfile[0];
+          var fileReader = new FileReader();
+          fileReader.onload = function(fileLoadedEvent) {
+            var srcData = fileLoadedEvent.target.result;
+            var newImage = document.createElement('img');
+              newImage.src = srcData;
+              document.querySelectorAll("[name='ImageBase64']")[0].value = srcData;
+              document.querySelectorAll("[name='ImageExtension']")[0].value = imageFile.name.split('.').pop();
+            //document.getElementById("dummy").innerHTML = newImage.outerHTML;
+            //document.getElementById("txt").value = document.getElementById("dummy").innerHTML;
+          }
+          fileReader.readAsDataURL(imageFile);
+        }
+      }
+</script>

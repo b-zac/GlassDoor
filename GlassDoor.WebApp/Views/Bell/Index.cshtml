@@ -1,0 +1,19 @@
+﻿@model IEnumerable<GlassDoor.Data.Entities.Models.PhotoEntryModel>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Visitors Log</h1>
+
+@foreach(var m in Model)
+{
+@*<div>
+    <div><a target="_blank" href="/Bell/VisitorDetail/@m.PhotoId">@m.UploadDate.ToString("dd/MM/yyyy h:mm tt") - @m.VisitorName</a></div>
+</div>*@
+<div class="list-group">
+    <a href="/Bell/VisitorDetail/@m.PhotoId" class="list-group-item list-group-item-action">
+        <div class="row">@m.UploadDate.ToString("dd/MM/yyyy h:mm tt")</div>
+        <div class="row">@m.VisitorName</div>
+    </a>
+</div>
+}

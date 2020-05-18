@@ -1,0 +1,9 @@
+C:\Users\Bartosz\source\repos\GlassDoor.WebAPI\GlassDoor.Data\bin\Release\netcoreapp3.1\GlassDoor.Data.deps.json
+C:\Users\Bartosz\source\repos\GlassDoor.WebAPI\GlassDoor.Data\bin\Release\netcoreapp3.1\GlassDoor.Data.dll
+C:\Users\Bartosz\source\repos\GlassDoor.WebAPI\GlassDoor.Data\bin\Release\netcoreapp3.1\GlassDoor.Data.pdb
+C:\Users\Bartosz\source\repos\GlassDoor.WebAPI\GlassDoor.Data\obj\Release\netcoreapp3.1\GlassDoor.Data.csprojAssemblyReference.cache
+C:\Users\Bartosz\source\repos\GlassDoor.WebAPI\GlassDoor.Data\obj\Release\netcoreapp3.1\GlassDoor.Data.csproj.CoreCompileInputs.cache
+C:\Users\Bartosz\source\repos\GlassDoor.WebAPI\GlassDoor.Data\obj\Release\netcoreapp3.1\GlassDoor.Data.AssemblyInfoInputs.cache
+C:\Users\Bartosz\source\repos\GlassDoor.WebAPI\GlassDoor.Data\obj\Release\netcoreapp3.1\GlassDoor.Data.AssemblyInfo.cs
+C:\Users\Bartosz\source\repos\GlassDoor.WebAPI\GlassDoor.Data\obj\Release\netcoreapp3.1\GlassDoor.Data.dll
+C:\Users\Bartosz\source\repos\GlassDoor.WebAPI\GlassDoor.Data\obj\Release\netcoreapp3.1\GlassDoor.Data.pdb

@@ -1,0 +1,8 @@
+C:\Users\Bartosz\source\repos\GlassDoor.WebAPI\GlassDoor.Data\bin\Debug\netcoreapp3.1\CSPredictions.Data.deps.json
+C:\Users\Bartosz\source\repos\GlassDoor.WebAPI\GlassDoor.Data\bin\Debug\netcoreapp3.1\CSPredictions.Data.dll
+C:\Users\Bartosz\source\repos\GlassDoor.WebAPI\GlassDoor.Data\bin\Debug\netcoreapp3.1\CSPredictions.Data.pdb
+C:\Users\Bartosz\source\repos\GlassDoor.WebAPI\GlassDoor.Data\obj\Debug\netcoreapp3.1\CSPredictions.Data.csproj.CoreCompileInputs.cache
+C:\Users\Bartosz\source\repos\GlassDoor.WebAPI\GlassDoor.Data\obj\Debug\netcoreapp3.1\CSPredictions.Data.AssemblyInfoInputs.cache
+C:\Users\Bartosz\source\repos\GlassDoor.WebAPI\GlassDoor.Data\obj\Debug\netcoreapp3.1\CSPredictions.Data.AssemblyInfo.cs
+C:\Users\Bartosz\source\repos\GlassDoor.WebAPI\GlassDoor.Data\obj\Debug\netcoreapp3.1\CSPredictions.Data.dll
+C:\Users\Bartosz\source\repos\GlassDoor.WebAPI\GlassDoor.Data\obj\Debug\netcoreapp3.1\CSPredictions.Data.pdb
